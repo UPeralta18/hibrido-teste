@@ -31,7 +31,12 @@
 As imagens serão fixadas com a altura de 600px e largura máxima da página (sem considerar as bordas laterais) no desktop. No mobile a altura da imagem será de 250px.
 
 ### Banners com links
+Não é necessário confição deste módulo. Mas assim como o módulo de Banner rotativo, ele foi construído de uma maneira que é fácil a manutenção e poderia ser utilizado no CMS, apenas substituindo a class "rotate-banner" para "promo-banners". Vale ressaltar que as imagens têm um tamanho fixo de 250px de altura e 600px de largura no desktop. E no mobile as imagens ficam com o máximo de largura possível e adaptam a altura automaticamente.
 
 ### Seção de apelos comerciais
+Não é necessário confição deste módulo. Mas assim como o módulo de Banner rotativo e Banners com links, ele foi construído de uma maneira que é fácil a manutenção e poderia ser utilizado no CMS, bastante utilizar a class "info". Os ícones são os do Font Awesome 6 e poderiam ser facilmente substituídos, assim como o texto.
 
-# Concepção
+# Concepção e Desenvolvimento
+O teste foi construído utilizando a versão 2.4.6 Community do Magento. As bibliotecas utilizadas (tanto o Slick, quanto o Font Awesome e o jQuery) têm versões gratuitas ou abertas para utilização. Todo o desenvolvimento foi pensado para ser o mais responsívo e adaptativo o possível, seguindo as boas práticas e padrões estabelecidos para o desenvolvimento de um projeto Magento 2.
+Para o desenvolvimento da folha de estilo, foi utilizado o LESS e suas regras foram seguidas a risca. O mesmo vale para o desenvolvimento das páginas em Javascript e PHTML. Todo o desenvolvimento também foi pensado para tornar o uso simples e o site o mais leve o possível.
+
