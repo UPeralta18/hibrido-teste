@@ -1,0 +1,9 @@
+<div data-content-type="html" data-appearance="default" data-element="main">&lt;div class="rotate-banner"&gt;
+&lt;img src="{{media url=.renditions/wysiwyg/banner1.png}}" alt="" /&gt;
+&lt;img src="{{media url=.renditions/wysiwyg/banner1.png}}" alt="" /&gt;
+&lt;img src="{{media url=.renditions/wysiwyg/banner3.jpg}}" alt="" /&gt;
+&lt;/div&gt;
+
+{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" title="Produtos em Destaque" show_pager="0" products_count="20" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`3`^]^]"}}
+
+</div>
