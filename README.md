@@ -22,11 +22,11 @@
 2. Clique em "Content" e, em seguida, no botão "Edit with page builder".
 3. No menu da lateral esquera, abra o submenu "Element" e clique e arraste para o centro da tela o elemento "HTML Code", caso não haja nenhum elemento do tipo na tela.
 4. Passe o mouse por cima do elemento criado e, nos ícones que aparecem, clique no botão de engrenagem ("Edit"), para abrir o editor.
-5. Adicione o seguinte código: "<div class="rotate-banner">"
+5. Adicione o seguinte código: \<div class="rotate-banner"\>
 6. Pule uma linha e clique no botão "Insert Image".
 7. Caso ainda não tenha feito o upload da imagem, clique no botão "Upload Image" e selecione o arquivo no seu computador. Selecione a imagem desejada e clique no botão "Add Selected".
 8. Repita os passos 6 e 7 para quantas imagens desejar colocar.
-9. Após colocar todas as imagens desejadas, pule uma linha e coloque o código: "</div>"
+9. Após colocar todas as imagens desejadas, pule uma linha e coloque o código: \</div\>
 #### IMPORTANTE
 As imagens serão fixadas com a altura de 600px e largura máxima da página (sem considerar as bordas laterais) no desktop. No mobile a altura da imagem será de 250px.
 
